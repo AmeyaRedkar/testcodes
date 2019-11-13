@@ -1,8 +1,8 @@
 from flask import Flask
 from flask_restful import Api,Resource
 from flask_jwt_extended import JWTManager,jwt_required
-from userdb import Signup,Login
-from shopdb import Shop
+from AppDB.userdb import Signup,Login
+from AppDB.shopdb import Shop
 
 app=Flask(__name__)
 
