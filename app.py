@@ -17,5 +17,5 @@ api.add_resource(Signup,"/signup")
 api.add_resource(Login,"/login")
 api.add_resource(Shop,"/shop")
 
-if __name__ == "__main__":
-	app.run(debug=True,port=5000)
+
+app.run()
