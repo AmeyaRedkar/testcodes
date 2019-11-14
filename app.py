@@ -18,4 +18,4 @@ api.add_resource(Login,"/login")
 api.add_resource(Shop,"/shop")
 
 
-app.run(port=5000,debug=True)
+app.run(port=5000)
